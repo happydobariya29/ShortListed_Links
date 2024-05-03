@@ -32,7 +32,7 @@ export default function DataItems() {
       try {
         const response = await axios.get(
           // `http://localhost:8000/repositories?param1=${perPageValue}&param2=${page}`
-          `https://short-listed-links-server.vercel.app/repositories?param1=${perPageValue}&param2=${page}`
+          `https://short-listed-links-i313.vercel.app/repositories?param1=${perPageValue}&param2=${page}`
         );
         setRepositories(response.data);
         console.log(repositories);
